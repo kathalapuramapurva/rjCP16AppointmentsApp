@@ -1,0 +1,33 @@
+.style-each-appointment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.style-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+.style-para {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+}
+.style-star-image {
+  width: 20px;
+  height: 20px;
+}
+.style-star-button {
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  align-self: flex-start;
+  margin-top: 10px;
+}

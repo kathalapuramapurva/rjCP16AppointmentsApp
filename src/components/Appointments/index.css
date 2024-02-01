@@ -1,0 +1,111 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  padding: 20px;
+  height: 100vh;
+}
+.content-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.main-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.style-label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.style-input {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+}
+.addButton {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.style-image {
+  width: 100%;
+  display: none;
+}
+.each-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.style-line {
+  width: 100%;
+  margin-top: 20px;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.style-appointments-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.style-starred-button {
+  background-color: transparent;
+  color: #9897f0;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #9897f0;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.appointments-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.violet-back {
+  background-color: #9897f0;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .style-containers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .style-form {
+    width: 50%;
+  }
+  .style-image {
+    width: 50%;
+    display: inline;
+  }
+}
